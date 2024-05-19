@@ -1,6 +1,7 @@
 @extends('layouts.main')
 
 @section('container')
+    @csrf
     <section class="pt-36 pb-32 bg-slate-100">
         <div class="container">
             <div class="flex justify-center">
