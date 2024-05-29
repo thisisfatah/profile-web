@@ -31,11 +31,11 @@
                                 class="text-base text-dark py-4
                                 mx-8 flex group-hover:text-primary lg:mx-2 lg:text-sm {{ Request::is('projects') ? 'text-primary' : '' }}">Portofolio</a>
                         </li>
-                        <li class="group">
+                        <!-- <li class="group">
                             <a href="/blog"
                                 class="text-base text-dark py-4
                                 mx-8 flex group-hover:text-primary lg:mx-2 lg:text-sm {{ Request::is('blog') ? 'text-primary' : '' }}">Blogs</a>
-                        </li>
+                        </li> -->
                         <li class="group">
                             <a href="/contact"
                                 class="text-base text-dark py-4

@@ -34,8 +34,8 @@ Route::post('/contact', [ContactController::class, 'send'])->name('contact.send'
 Route::get('projects', [ProjectController::class, 'index']);
 Route::get('projects/{slug}', [ProjectController::class, 'show']);
 
-Route::get('/blog', [PostController::class, 'index']);
-Route::get('blog/{post:slug}', [PostController::class, 'show']);
+// Route::get('/blog', [PostController::class, 'index']);
+// Route::get('blog/{post:slug}', [PostController::class, 'show']);
 
 
 Route::get('/login', [LoginController::class, 'index'])->name('login')->middleware('guest');
